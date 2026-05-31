@@ -1,5 +1,16 @@
 //  Ternary Operators
 
+let a = 5;
+console.log(a++ + ++a - --a + a-- + ++a);
+console.log(a); //5 + 7 - 6 + 6 + 6 = 18
+// 1. a++ 5 = 6
+// 2. ++a = 7(6 + 1)
+// 3. --a = 6 (7 - 1 = 6)
+// 4. a-- = 6 (6 - 1 = 5)
+// 5. ++a = 5 (5 + 1 = 6)
+
+
+
 // Who is the taller basketball player - maximum between two numbers?
 let player1 = 10; // 1st player height
 let player2 = 20; //2nd player height
@@ -22,6 +33,6 @@ let icescreameater3 = 12 // No of gallons ice cream eater number three ate
 
 let winner = icecreameater1 > icescreameater2 && icecreameater1 > icescreameater3 ? icecreameater1
     : icescreameater2 > icescreameater3 ? icescreameater2
-    : icescreameater3
+        : icescreameater3
 
 console.log(`The biggest number of gallons of ice cream eaten is: ${winner}`);
