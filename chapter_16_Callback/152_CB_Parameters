@@ -29,3 +29,4 @@ bugs.forEach(function (bug, i) {
 
 console.log("Total bugs: " + bugs.length);
 
+er
