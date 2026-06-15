@@ -31,8 +31,9 @@ let icescreameater3 = 12 // No of gallons ice cream eater number three ate
 // No -> is icecreameater2 bigger than icecreameater3?
 // Yes -> icecreameater2 wins!
 
-let winner = icecreameater1 > icescreameater2 && icecreameater1 > icescreameater3 ? icecreameater1
-    : icescreameater2 > icescreameater3 ? icescreameater2
-        : icescreameater3
+let winner = icecreameater1 > icescreameater2 && icecreameater1 > icescreameater3 ? icecreameater1 //// is eater1 bigger than BOTH others? 8 > 17 AND 8 > 12? NO ❌ keep looking.
+
+    : icescreameater2 > icescreameater3 ? icescreameater2 // is eater2 bigger than eater3? 17 > 12? YES eater2 wins!
+        : icescreameater3 // // if nobody won above, eater3 wins by default
 
 console.log(`The biggest number of gallons of ice cream eaten is: ${winner}`);
