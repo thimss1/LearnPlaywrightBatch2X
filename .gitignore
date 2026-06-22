@@ -1,0 +1,13 @@
+# Node dependencies
+node_modules/
+
+# Playwright test output
+test-results/
+playwright-report/
+blob-report/
+
+# Logs
+*.log
+
+# VS Code settings (optional)
+.vscode/settings.json
