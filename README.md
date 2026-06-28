@@ -1,6 +1,8 @@
 # JavaScript Learning Chapters
 
-This repository contains organized code examples, keyboard shortcuts, and explanatory notes for learning core JavaScript concepts. Each chapter folder includes examples and tips for topics like identifiers, literals, operators, objects, asynchronous JavaScript, Playwright basics, and modern module/import-export patterns.
+
+This repository contains organized code examples, keyboard shortcuts, and explanatory notes for learning core JavaScript concepts. Each chapter folder includes examples and tips for topics like identifiers, literals, operators, objects, asynchronous JavaScript, Playwright basics, modern module/import-export patterns, and introductory OOP concepts.
+
 
 ## Chapters
 
@@ -17,7 +19,8 @@ This repository contains organized code examples, keyboard shortcuts, and explan
 - **chapter_17_Promise:** Promise creation, resolve/reject flows, `.then()`, `.catch()`, `.finally()`, API-style examples, `Promise.all()`, and Promise interview/practice questions
 - **chapter_18_Async_Await:** `async`/`await` fundamentals, error handling with `try/catch/finally`, sequential vs parallel async execution, and Playwright-oriented async examples
 - **chapter_19_Playwright_Basics:** Introductory Playwright project setup with test configuration, browser automation examples, generated login tests, and HTML reporting
-- **chapter_20_Typescript_Basics:** Import/export fundamentals, named and default exports, reusable helpers, logger utilities, and module-based examples for modern JavaScript/TypeScript-style workflows
+
+- **chapter_20_Typescript_&_OOPs_Basics:** Import/export fundamentals, named and default exports, reusable helpers, logger utilities, classes, objects, constructors, private/public fields, static members, and beginner-friendly OOP examples
 
 Chapters `08` through `13` are not currently present in this repository. More chapters and examples will be added as learning progresses.
 
@@ -44,12 +47,15 @@ Chapters `08` through `13` are not currently present in this repository. More ch
 - Includes supporting project output such as `playwright-report` and reference material like `sdet.pdf`
 - Example files: `playwright.config.ts`, `tests/example.spec.ts`, `tests/codegen-tta-cart.spec.ts`, `e2e/example.spec.ts`
 
-## Chapter 20: Typescript Basics
+## Chapter 20: Typescript & OOPs Basics
 
 - Introduces reusable modules with `import` and `export`
 - Shows named exports across helper files and a default export logger example
+- Covers core OOP basics including classes, objects, constructors, attributes, and methods
+- Includes practical examples using browser, test case, and car-based classes
+- Demonstrates access control concepts with private/public fields and shared class behavior with `static` members
 - Includes notes explaining default exports and how they differ from named exports
-- Example files: `168_EXPORT_IMPORT.js`, `169_Utils.js`, `170_Logger.js`, `utils.js`, `testutils.js`, `logger.js`, `ExplainDefault.md`
+- Example files: `168_EXPORT_IMPORT.js`, `169_Utils.js`, `170_Logger.js`, `171_Class_Object.js`, `172_Class_Object2.js`, `173_Car.js`, `174_Real_Browser.js`, `175_IQ.js`, `176_Private_Public.js`, `177_Static.js`, `178_Static.js`, `utils.js`, `testutils.js`, `logger.js`, `ExplainDefault.md`
 
 ## Useful Tips
 
