@@ -1,0 +1,32 @@
+class ICICI {
+    #balance;  // means privated in JS, In thypescript - private
+
+    constructor(name, balance) {
+        this.#balance = balance
+        this.name = name;
+    }
+
+    getBalance() { //checking your balance
+        return this.#balance;
+    }
+
+    setBalance(balance, isCashier) {
+        if (isCashier) {
+            this.#balance = balance // cashier can change it
+        }   else {
+            console.log("Not allowed")  // regular person gets blocked
+        }
+        
+    }
+}
+
+let pramod = new ICICI("Prrammod", 1000);  // Pramod starts with $1000
+console.log(pramod.getBalance()); // 1000 — starting balance
+pramod.setBalance(10000000, false);  // "Not allowed" — not a cashier
+console.log(pramod.getBalance());   // still 1000 — nothing changed
+
+let pramod_father = new ICICI("Prrammod", 2000); // his father starts with $2000
+console.log(pramod_father.getBalance());  // 2000 — father's starting balance
+pramod.setBalance(10000000, true); // cashier approved — pramod gets 10000000
+console.log(pramod_father.getBalance());  // still 2000 — father's balance unchanged
+
