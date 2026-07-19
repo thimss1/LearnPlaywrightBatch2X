@@ -20,7 +20,7 @@ This repository contains organized code examples, keyboard shortcuts, and explan
 - **chapter_18_Async_Await:** `async`/`await` fundamentals, error handling with `try/catch/finally`, sequential vs parallel async execution, and Playwright-oriented async examples
 - **chapter_19_Playwright_Basics:** Introductory Playwright project setup with test configuration, browser automation examples, generated login tests, and HTML reporting
 
-- **chapter_20_Typescript_&_OOPs_Basics:** Import/export fundamentals, named and default exports, reusable helpers, logger utilities, classes, objects, constructors, private/public fields, static members, and beginner-friendly OOP examples
+- **chapter_20_Typescript_&_OOPs_Basics:** Introduction to Object-Oriented Programming (OOP) concepts in JavaScript and TypeScript. Topics covered include classes and objects, constructors, methods, static and non-static fields, encapsulation with private fields (#), inheritance (single, multilevel, and hierarchical), method overriding, polymorphism, and the Page Object Model pattern. Example files: 168_EXPORT_IMPORT.js, 169_Utils.js, 170_Logger.js, 171_Class_Object.js, 172_Class_Object2.js, 173_Car.js, 174_Real_Browser.js, 175_IQ.js, 176_Private_Public.js, 177_Static.js, 178_Static.js, 179_Encap.js, 180_REAL_EXAMPLE.js, 181_Encap_Car.js, 182_ECap_Bank.js, 183_Single_Inheritance.js, 184_SI_Example.js, 185_Single_Inheritance_Con.js, 186_IQ.js, 187_IQ2.js, 188_REAL_PageObject_Model.js, 189_Multiple_Inheritance.js, 190_Level_Inheritance.js, 191_Hierarchial_Inheritance.js, 192_Method_Overriding.js
 
 Chapters `08` through `13` are not currently present in this repository. More chapters and examples will be added as learning progresses.
 
